@@ -1,0 +1,4 @@
+-- V2: Migrations para adicionar a coluna "DESCRIPTION"
+
+ALTER TABLE DB_MISSOES
+ADD COLUMN DESCRICAO VARCHAR(200);
