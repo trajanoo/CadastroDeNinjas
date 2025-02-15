@@ -3,7 +3,7 @@ package com.spring.CadastroNinja.Ninjas;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/ninjas")
 public class NinjaController {
 
     // CRUD: Create, Read, Update, Delete
